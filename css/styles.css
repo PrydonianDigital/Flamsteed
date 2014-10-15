@@ -1,0 +1,55 @@
+a:focus {
+  outline: none;
+  outline: 0;
+}
+.jumbotron {
+	background: url(../img/bg.png);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #222222;
+	background-color: #F89406;
+}
+.nav-tabs {
+	clear: both;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #F89406;
+	background: #222222;
+	border: 1px solid #dddddd;
+	border-bottom-color: transparent;
+	cursor: default;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background: #F89406;
+	color: #222222;
+	border-color: #ad6704 #ad6704 rgba(0, 0, 0, 0);
+}
+.padding {
+	background: #222222;
+	padding: 15px;
+}
+.padding.less {
+	background: #222222;
+	padding: 5px 15px 0 15px;
+}
+.padding.less h4 {
+	border-top: 1px solid #e5e5e5;
+	overflow: hidden;
+	padding-top: 15px;
+}
+.tab-pane .row:nth-child(1) .padding.less h4 {
+	border-top: 0;
+}
+.alignright {
+	float: right;
+	margin: 0 0 0 15px;
+}
+.alignleft {
+	float: left;
+	margin: 0 15px 0 0;
+}

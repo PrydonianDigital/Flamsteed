@@ -1,0 +1,280 @@
+/*  
+Theme Name: Flamsteed Astronomy Society
+Theme URI: http://flamsteed.info
+Description: Awesome mobile-friendly version of the Flamsteed site
+Version: 2.0
+Author: Mark Duwe
+Author URI: https://www.facebook.com/Marks.Portfolio
+Tags: 
+License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+License URI: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US
+*/
+
+body {
+	padding-top: 70px;
+}
+a:focus {
+  outline: none;
+  outline: 0;
+}
+.jumbotron {
+	background: url(img/bg.png);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+.jumbotron h1 {
+	font-size: 32px;
+	margin: 20px 0;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.jumbotron .widget_search {
+	margin: 20px 0;
+	text-align: right;
+}
+.screen-reader-text {
+	display: none;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #222222;
+	background-color: #F89406;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	color: #222222;
+	background-color: #F89406;
+}
+.nav-tabs {
+	clear: both;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #F89406;
+	background: #222222;
+	border: 1px solid #dddddd;
+	border-bottom-color: transparent;
+	cursor: default;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background: #F89406;
+	color: #222222;
+	border-color: #ad6704 #ad6704 rgba(0, 0, 0, 0);
+}
+.padding {
+	background: #222222;
+	padding: 15px;
+	overflow: hidden;
+}
+.padding.less {
+	background: #222222;
+	padding: 5px 15px 0 15px;
+}
+.padding.less h4{
+	border-top: 1px solid #e5e5e5;
+	overflow: hidden;
+	padding-top: 15px;
+}
+.padding.less hr {
+	margin: 10px 0;
+}
+.tab-pane .row:nth-child(1) .padding.less h4, .tab-pane .row:nth-child(1) .padding.less hr {
+	border-top: 0;
+	margin: 0;
+}
+.date {
+	float: right;
+}
+.title {
+	float: left;
+}
+#twitter, #twitter-widget-0 {
+	height: 1200px;
+}
+#twitter-widget-0 {
+	width: 100%
+}
+.alignright {
+	float: right;
+	margin: 0 0 0 15px;
+}
+.alignleft {
+	float: left;
+	margin: 0 15px 0 0;
+}
+.vcalendar {
+	padding-left: 0;
+}
+#sidebar .widget, #mobilesidebar .widget {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;	
+}
+#mobilesidebar .widget li {
+	font-size: 95% !important;
+}
+.tribe-events-adv-list-widget ol li, .tribe-events-widget-link {
+    list-style: none outside none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666666;
+}
+#sidebar h4 {
+    list-style: none outside none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+#sidebar h4.entry-title {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+#tribe-events-pg-template {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.widget ol, .widget ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.widget_recent_entries li {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+    border-bottom: 1px solid #666666;
+}
+.gce-widget-grid .gce-calendar .gce-today {
+	background-color: #f0ad4e;
+	color: #fff;
+}
+.gce-widget-grid .gce-calendar .gce-feed-8007 {
+	background-color: #5cb85c;
+	color: #fff;	
+}
+.gce-widget-grid .gce-calendar .gce-feed-8008 {
+	color: #ffffff;
+	background-color: #d9534f;
+}
+.gce-widget-grid .gce-calendar .gce-feed-8009 {
+	background-color: #ccc;
+	color: #fff;	
+}
+.btn.gce-feed-3 {
+	background-color: #ccc;
+	color: #fff;	
+}
+.gce-event-info {
+	background: #222;
+	color: #fff;
+}
+.gce-list-event.gce-tooltip-event {
+	background: #222;
+	color: #fff;
+}
+#tribe-bar-form {
+	background: #444;
+}
+.tribe-events-list-separator-month span {
+    color: #222;
+}
+.single-tribe_events .tribe-events-content {
+	clear: both;
+	overflow: hidden;
+}
+.single-tribe_events .tribe-events-event-meta {
+    background: #444;
+    border: 1px solid #555;
+    margin: 30px 0;
+    clear: both;
+}
+.tribe-events-single ul.tribe-related-events li .tribe-related-event-info {
+    color: #000;
+}
+#sidebar img {
+	max-width: 100%;
+	height: auto;
+}
+.panel  {
+	background: #222;
+	border-color: #666;
+}
+.panel-default > .panel-heading {
+	background: #080808;
+}
+.panel-title a {
+	color: #F89406;
+}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+	border-color: #666;
+}
+#tribe-bar-collapse-toggle {
+	background: #444;
+}
+.search-terms {
+	font-style: italic;
+}
+iframe {
+	max-width: 100%;
+	height: auto;
+}
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
+	font-size: 14px;
+}
+#bbpress-forums .bbp-reply-content ul.bbp-topic-revision-log {
+	font-size: 12px;
+}
+#bbpress-forums ul.bbp-forums {
+	border-color: #000;
+}
+#bbpress-forums li.bbp-header, #bbpress-forums li.bbp-body, #bbpress-forums li.bbp-footer, #bbpress-forums div.bbp-reply-header {
+	background: #444444;
+}
+#bbpress-forums li.bbp-header {
+	background: #333333;
+}
+#bbpress-forums ul.odd, #bbpress-forums div.odd {
+	background: #444444;
+}
+#bbpress-forums ul.even, #bbpress-forums div.even {
+	background: #434343;
+}
+.bbp-form legend {
+	color: #fff;
+}
+.bbp-forum-content span {
+	color: #fff !important;
+}
+.bbp-topics ul.sticky {
+	background: #555 !important;
+}
+.bbp-breadcrumb {
+	margin: 0 10px 0 0;
+}
+fieldset.bbp-form.password span.description {
+	color: #000;
+}
+fieldset.bbp-form.bbp-signature span.description {
+	color: #000;
+}
+body.tribe-filter-live.events-list.events-archive.tribe-theme-FAS.tribe-events-page-template.tribe-is-responsive.tribe-mobile {
+	color: #A1A1A1;
+}
+body.single.single-tribe_events.tribe-filter-live.events-single.tribe-theme-FAS.tribe-events-page-template.tribe-is-responsive.tribe-mobile {
+	color: #A1A1A1;
+}
+.mce-container.mce-panel.mce-floatpanel.mce-window.mce-in {
+    	color: #000;
+}
+#wp-link #link-options label span, #wp-link #search-panel label span.search-label {
+	color: #000;
+}
+#link-modal-title {
+	color: #000;
+}
+#wp-link .link-target label {
+	color: #000;
+}
+p#wp-link-search-toggle.howto {
+	color: #000;
+}
